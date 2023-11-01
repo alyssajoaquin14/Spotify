@@ -7,6 +7,7 @@ import seaborn as sns
 st.header("Spotify Top Streamed Songs 2023")
 data = pd.read_csv("spotify-2023.csv", encoding='ISO-8859-1')
 data.info()
+st.dataframe(data, use_container_width=True)
 # top artists with most songs
 top_artists = data['artist(s)_name'].value_counts().head(10)
 
