@@ -1,4 +1,4 @@
-# Spotify Songs 2023
+# Spotify Songs 2023 Streamlit App
 
 Streamlit dashboard using kaggle dataset of most streamed spotify songs 2023
 
